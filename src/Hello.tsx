@@ -2,10 +2,7 @@
 // place it within your src/ directory
 
 import * as React from "react";
-
-interface IHelloProps {
-  name: string;
-}
+import {IHelloProps} from './IHelloProps';
 
 class Hello extends React.Component<IHelloProps, {}> {
   render() {
