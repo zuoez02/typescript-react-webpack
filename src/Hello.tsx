@@ -3,11 +3,11 @@
 
 import * as React from "react";
 
-interface HelloProps {
+interface IHelloProps {
   name: string;
 }
 
-class Hello extends React.Component<HelloProps, {}> {
+class Hello extends React.Component<IHelloProps, {}> {
   render() {
     return <div>Hello, {this.props.name}</div>;
   }
